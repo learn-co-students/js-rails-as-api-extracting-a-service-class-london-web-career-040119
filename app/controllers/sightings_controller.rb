@@ -10,3 +10,4 @@ class SightingsController < ApplicationController
       render json: SightingSerializer.new(@sighting).to_serialized_hash
     end
 end
+
